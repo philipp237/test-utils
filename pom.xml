@@ -57,4 +57,13 @@
       <version>${protobuf-java.version}</version>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub philipp237 Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/philipp237/test-utils</url>
+    </repository>
+  </distributionManagement>
+
 </project>
